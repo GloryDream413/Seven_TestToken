@@ -1,0 +1,6 @@
+--compile--
+npx hardhat compile
+
+--deploy & verify--
+npx hardhat run --network core scripts/deploy.js
+(Two steps: 1 - only deploy 2 - verify)

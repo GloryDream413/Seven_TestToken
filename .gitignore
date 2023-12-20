@@ -1,0 +1,6 @@
+DeployProject/env.json
+DeployProject/node_modules
+DeployProject/package-lock.json
+DeployProject/artifacts
+DeployProject/cache
+DeployProject/typechain
