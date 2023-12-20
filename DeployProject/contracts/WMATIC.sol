@@ -5,8 +5,8 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 
-contract EUR is ERC20, ERC20Burnable {
-    constructor() ERC20("Euro Token", "EUR") {
-        _mint(msg.sender, 100_000_000_000 * 10**18 );
+contract WMATIC is ERC20, ERC20Burnable {
+    constructor() ERC20("Wrapped Matic", "WMATIC") {
+        _mint(msg.sender, 100_000_000_000 * 10 ** 18 );
     }
 }
