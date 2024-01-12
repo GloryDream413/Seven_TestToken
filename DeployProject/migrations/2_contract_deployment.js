@@ -3,7 +3,7 @@ const WBNB = artifacts.require("WBNB");
 const WETH = artifacts.require("WETH");
 const LINK = artifacts.require("LINK");
 const TRX = artifacts.require("TRX");
-const KLAY = artifacts.require("KLAY");
+const A = artifacts.require("A");
 const USDT = artifacts.require("USDT");
 
 module.exports = async function (deployer) {
@@ -22,8 +22,8 @@ module.exports = async function (deployer) {
   await deployer.deploy(TRX);
   const TRXDeployed = await TRX.deployed();
 
-  await deployer.deploy(KLAY);
-  const KLAYDeployed = await KLAY.deployed();
+  await deployer.deploy(A);
+  const ADeployed = await A.deployed();
 
   await deployer.deploy(USDT);
   const USDTDeployed = await USDT.deployed();
