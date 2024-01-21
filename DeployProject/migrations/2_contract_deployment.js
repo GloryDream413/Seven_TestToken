@@ -8,23 +8,23 @@ const USDT = artifacts.require("USDT");
 
 module.exports = async function (deployer) {
   await deployer.deploy(WMATIC);
-  const WMATICDeployed = await WMATIC.deployed();
+  await WMATIC.deployed();
 
   await deployer.deploy(WBNB);
-  const WBNBDeployed = await WBNB.deployed();
+  await WBNB.deployed();
 
   await deployer.deploy(WETH);
-  const WETHDeployed = await WETH.deployed();
+  await WETH.deployed();
 
   await deployer.deploy(LINK);
-  const LINKDeployed = await LINK.deployed();
+  await LINK.deployed();
 
   await deployer.deploy(TRX);
-  const TRXDeployed = await TRX.deployed();
+  await TRX.deployed();
 
   await deployer.deploy(A);
-  const ADeployed = await A.deployed();
+  await A.deployed();
 
   await deployer.deploy(USDT);
-  const USDTDeployed = await USDT.deployed();
+  await USDT.deployed();
 };
